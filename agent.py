@@ -66,7 +66,7 @@ class CustomerAgent:
     def __init__(self, config: dict):
         self.cfg = config
         import os
-        api_key = config.get("groq_api_key") or os.environ.get("GROQ_API_KEY", "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")
+        api_key = config.get("groq_api_key") or os.environ.get("GROQ_API_KEY", "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").strip()
         self.client = Groq(api_key=api_key)
 
     def _system_prompt(self, intent: str) -> str:
