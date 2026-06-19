@@ -1,0 +1,58 @@
+{
+  "business_name":    "Zaiqa Restaurant",
+  "business_type":    "restaurant",
+  "business_city":    "Delhi",
+  "agent_name":       "Zaiqa Support",
+  "business_hours":   "Monday-Sunday, 11AM - 11PM",
+  "support_phone":    "+91-9XXXXXXXXX",
+  "groq_api_key":     "gsk_APNA_KEY_YAHAN_DAALO",
+  "groq_model":       "llama3-8b-8192",
+  "max_history":      8,
+  "widget_color":     "#e11d48",
+  "agent_avatar":     "🤖",
+  "welcome_message":  "Namaste! Zaiqa Restaurant mein aapka swagat hai! Order, booking ya koi sawaal? Main yahan hoon 🍽️",
+
+  "faqs": [
+    {
+      "q": "delivery kitni der mein hogi",
+      "a": "Aapke area ke hisaab se delivery 30-45 minute mein ho jaati hai."
+    },
+    {
+      "q": "minimum order kitna hai",
+      "a": "Minimum order Rs. 199 hai home delivery ke liye."
+    },
+    {
+      "q": "table book kaise kare",
+      "a": "Table booking ke liye apna naam, date, time aur kitne log hain yeh batayein. Main confirm kar dunga."
+    },
+    {
+      "q": "payment kaise kare",
+      "a": "Hum UPI, Cash on Delivery, aur Card payment accept karte hain."
+    },
+    {
+      "q": "kya aap veg non veg dono rakhte hain",
+      "a": "Ji haan, hamare paas pure Veg aur Non-Veg dono options available hain."
+    }
+  ],
+
+  "menu_highlights": [
+    "Butter Chicken - Rs. 280",
+    "Paneer Tikka Masala - Rs. 240",
+    "Dal Makhani - Rs. 180",
+    "Biryani (Chicken) - Rs. 320",
+    "Gulab Jamun - Rs. 80"
+  ],
+
+  "delivery_areas": [
+    "Connaught Place",
+    "Karol Bagh",
+    "Lajpat Nagar",
+    "Saket"
+  ],
+
+  "special_offers": [
+    "10% off on orders above Rs. 500",
+    "Free dessert on birthdays — bas ID dikhao",
+    "Happy Hours 3PM-6PM — 15% off"
+  ]
+}
