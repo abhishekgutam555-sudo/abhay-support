@@ -1,4 +1,4 @@
-"""
+ """
 app.py
 ------
 Flask server — 4 kaam karta hai:
@@ -61,6 +61,12 @@ def chat():
         "escalated":  result["escalated"],
         "session_id": session_id,
     })
+
+
+@app.route("/")
+def home():
+    from flask import redirect
+    return redirect("/widget")
 
 
 @app.route("/health")
