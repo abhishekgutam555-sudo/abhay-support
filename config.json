@@ -5,7 +5,7 @@
   "agent_name":       "Zaiqa Support",
   "business_hours":   "Monday-Sunday, 11AM - 11PM",
   "support_phone":    "+91-9XXXXXXXXX",
-  "groq_api_key":     "",
+  "groq_api_key":     "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",
   "groq_model":       "llama3-8b-8192",
   "max_history":      8,
   "widget_color":     "#e11d48",
