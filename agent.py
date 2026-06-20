@@ -64,7 +64,7 @@ def is_escalation(message: str) -> bool:
 class CustomerAgent:
 
     def __init__(self, config: dict):
-        self.cfg = confi
+        self.cfg = config
         api_key = config.get("groq_api_key") or os.environ.get("GROQ_API_KEY", "").strip()
         self.client = Groq(api_key=api_key)
 
