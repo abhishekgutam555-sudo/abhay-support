@@ -4,7 +4,7 @@ agent.py
 Groq AI brain — intent detection, system prompt builder,
 escalation logic, rate-limit retry.
 """
-
+import os
 import time
 from groq import Groq
 
